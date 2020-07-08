@@ -33,6 +33,6 @@ export function* fetchCollectionsStart() {
   );
 }
 
-export function* stopSagas() {
+export function* shopSagas() {
   yield all([call(fetchCollectionStart)]);
 }
